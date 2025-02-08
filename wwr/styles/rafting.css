@@ -1,0 +1,84 @@
+:root {
+    --coffee: #704E2E; /* primary color*/
+    --mindaro: #CDE77F; /*secondary color */
+    --reseda-green: #79745C; /*accent 1*/
+    --tea-green: #E6F8B2; /*accent 2*/
+}
+
+.pt-serif-regular {
+    font-family: "PT Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+.pt-serif-bold {
+    font-family: "PT Serif", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+  
+.pt-serif-regular-italic {
+    font-family: "PT Serif", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+  
+.pt-serif-bold-italic {
+    font-family: "PT Serif", serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+
+.roboto-slab-400 {
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-slab-700 {
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+main {
+    max-width: 800px;
+    margin: 2rem auto;
+}
+
+nav {
+    color: var(--tea-green);
+}
+
+nav a {
+    text-decoration: none
+}
+
+h1 {
+    color: var(--coffee);
+    font-family: "PT Serif", serif;
+    position: absolute;
+}
+
+p {
+    color: var(--coffee);
+    font-family: "Roboto Slab", serif;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+article {
+    position: absolute;
+}
+
+
+article img {
+    position: absolute;
+}
